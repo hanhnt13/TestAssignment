@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class LineStyle : NSObject {
+    var color: String?
+    var width: Double?
+    var id : String?
+}

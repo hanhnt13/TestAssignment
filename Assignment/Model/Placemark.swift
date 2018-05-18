@@ -1,5 +1,5 @@
 //
-//  MultiGeometry.swift
+//  Placemark.swift
 //  Assignment
 //
 //  Created by Hanh Nguyen on 5/16/18.
@@ -9,6 +9,9 @@
 import Foundation
 
 
-class MultiGeometry : NSObject {
-    
+class Placemark : NSObject {
+    var multiGeometry : [LineString]?
+    var name: String?
+    var styleUrl: String?
+    var coordinates : [Coordinate]?
 }

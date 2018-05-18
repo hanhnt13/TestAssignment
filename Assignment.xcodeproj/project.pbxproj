@@ -8,20 +8,100 @@
 
 /* Begin PBXBuildFile section */
 		461C90BB20AC31BF009C366C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461C90BA20AC31BF009C366C /* AppDelegate.swift */; };
-		461C90BD20AC31BF009C366C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461C90BC20AC31BF009C366C /* ViewController.swift */; };
+		461C90BD20AC31BF009C366C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461C90BC20AC31BF009C366C /* MapViewController.swift */; };
 		461C90C020AC31BF009C366C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461C90BE20AC31BF009C366C /* Main.storyboard */; };
 		461C90C220AC31BF009C366C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461C90C120AC31BF009C366C /* Assets.xcassets */; };
 		461C90C520AC31BF009C366C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461C90C320AC31BF009C366C /* LaunchScreen.storyboard */; };
+		461C90E120AC332A009C366C /* 2018_PCT.xml in Resources */ = {isa = PBXBuildFile; fileRef = 461C90CF20AC332A009C366C /* 2018_PCT.xml */; };
+		461C90E220AC332A009C366C /* landmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90D120AC332A009C366C /* landmark.png */; };
+		461C90E320AC332A009C366C /* postal.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90D220AC332A009C366C /* postal.png */; };
+		461C90E420AC332A009C366C /* bivy.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90D320AC332A009C366C /* bivy.png */; };
+		461C90E520AC332A009C366C /* town.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90D420AC332A009C366C /* town.png */; };
+		461C90E620AC332A009C366C /* store.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90D520AC332A009C366C /* store.png */; };
+		461C90E720AC332A009C366C /* angel.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90D620AC332A009C366C /* angel.png */; };
+		461C90E820AC332A009C366C /* camping.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90D720AC332A009C366C /* camping.png */; };
+		461C90E920AC332A009C366C /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90D820AC332A009C366C /* alert.png */; };
+		461C90EA20AC332A009C366C /* restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90D920AC332A009C366C /* restaurant.png */; };
+		461C90EB20AC332A009C366C /* dirt_road.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90DA20AC332A009C366C /* dirt_road.png */; };
+		461C90EC20AC332A009C366C /* campground.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90DB20AC332A009C366C /* campground.png */; };
+		461C90ED20AC332A009C366C /* trail_jct.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90DC20AC332A009C366C /* trail_jct.png */; };
+		461C90EE20AC332A009C366C /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90DD20AC332A009C366C /* water.png */; };
+		461C90EF20AC332A009C366C /* lodging.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90DE20AC332A009C366C /* lodging.png */; };
+		461C90F020AC332A009C366C /* paved_road.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90DF20AC332A009C366C /* paved_road.png */; };
+		461C90F120AC332A009C366C /* bear.png in Resources */ = {isa = PBXBuildFile; fileRef = 461C90E020AC332A009C366C /* bear.png */; };
+		461C90F420AC35EC009C366C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461C90F320AC35EC009C366C /* Constants.swift */; };
+		461C90F820AC372A009C366C /* LookAtParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461C90F720AC372A009C366C /* LookAtParser.swift */; };
+		461C90FA20AC3777009C366C /* LookAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461C90F920AC3777009C366C /* LookAt.swift */; };
+		4693BBA420AC39D600313BD3 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693BBA320AC39D600313BD3 /* Document.swift */; };
+		4693BBA620AC3E4B00313BD3 /* IconStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693BBA520AC3E4B00313BD3 /* IconStyle.swift */; };
+		4693BBA820AC3ED000313BD3 /* StyleParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693BBA720AC3ED000313BD3 /* StyleParser.swift */; };
+		4693BBAA20AC431700313BD3 /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693BBA920AC431700313BD3 /* Pair.swift */; };
+		4693BBAC20AC436800313BD3 /* StyleMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693BBAB20AC436800313BD3 /* StyleMap.swift */; };
+		4693BBAE20AC440E00313BD3 /* PairParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693BBAD20AC440E00313BD3 /* PairParser.swift */; };
+		4693BBB020AC441900313BD3 /* StyleMapParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693BBAF20AC441900313BD3 /* StyleMapParser.swift */; };
+		46BED26020AC483C0064AE30 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46BED25F20AC483C0064AE30 /* ArcGIS.bundle */; };
+		46BED26220AC5A160064AE30 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BED26120AC5A160064AE30 /* Coordinate.swift */; };
+		46BED26420AC5B1A0064AE30 /* LineString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BED26320AC5B1A0064AE30 /* LineString.swift */; };
+		46BED26620AC5B720064AE30 /* Placemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BED26520AC5B720064AE30 /* Placemark.swift */; };
+		46BED26820AC5BED0064AE30 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BED26720AC5BED0064AE30 /* Folder.swift */; };
+		46BED26A20AC5CEE0064AE30 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BED26920AC5CEE0064AE30 /* Point.swift */; };
+		46BED26C20AC5D650064AE30 /* LineStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BED26B20AC5D650064AE30 /* LineStringParser.swift */; };
+		46BED26E20AC5E960064AE30 /* PlaceMarkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BED26D20AC5E960064AE30 /* PlaceMarkParser.swift */; };
+		46BED27020AC60010064AE30 /* FolderParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BED26F20AC60010064AE30 /* FolderParser.swift */; };
+		46BED27220AC7FC00064AE30 /* LineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BED27120AC7FC00064AE30 /* LineStyle.swift */; };
+		46BED27420AD697F0064AE30 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BED27320AD697F0064AE30 /* UIColorExtension.swift */; };
+		CAF707C553AF0B0B1EE4DEC4 /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C17C270205C290F5EA53A5 /* Pods_Assignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15187B839A345DB9A5B3649D /* Pods-Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment/Pods-Assignment.debug.xcconfig"; sourceTree = "<group>"; };
 		461C90B720AC31BF009C366C /* Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		461C90BA20AC31BF009C366C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		461C90BC20AC31BF009C366C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		461C90BC20AC31BF009C366C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		461C90BF20AC31BF009C366C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		461C90C120AC31BF009C366C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		461C90C420AC31BF009C366C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		461C90C620AC31BF009C366C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461C90CF20AC332A009C366C /* 2018_PCT.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 2018_PCT.xml; sourceTree = "<group>"; };
+		461C90D120AC332A009C366C /* landmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landmark.png; sourceTree = "<group>"; };
+		461C90D220AC332A009C366C /* postal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = postal.png; sourceTree = "<group>"; };
+		461C90D320AC332A009C366C /* bivy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bivy.png; sourceTree = "<group>"; };
+		461C90D420AC332A009C366C /* town.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = town.png; sourceTree = "<group>"; };
+		461C90D520AC332A009C366C /* store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store.png; sourceTree = "<group>"; };
+		461C90D620AC332A009C366C /* angel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angel.png; sourceTree = "<group>"; };
+		461C90D720AC332A009C366C /* camping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camping.png; sourceTree = "<group>"; };
+		461C90D820AC332A009C366C /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
+		461C90D920AC332A009C366C /* restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurant.png; sourceTree = "<group>"; };
+		461C90DA20AC332A009C366C /* dirt_road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirt_road.png; sourceTree = "<group>"; };
+		461C90DB20AC332A009C366C /* campground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campground.png; sourceTree = "<group>"; };
+		461C90DC20AC332A009C366C /* trail_jct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trail_jct.png; sourceTree = "<group>"; };
+		461C90DD20AC332A009C366C /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
+		461C90DE20AC332A009C366C /* lodging.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lodging.png; sourceTree = "<group>"; };
+		461C90DF20AC332A009C366C /* paved_road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paved_road.png; sourceTree = "<group>"; };
+		461C90E020AC332A009C366C /* bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bear.png; sourceTree = "<group>"; };
+		461C90F320AC35EC009C366C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		461C90F720AC372A009C366C /* LookAtParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAtParser.swift; sourceTree = "<group>"; };
+		461C90F920AC3777009C366C /* LookAt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAt.swift; sourceTree = "<group>"; };
+		4693BBA320AC39D600313BD3 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		4693BBA520AC3E4B00313BD3 /* IconStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconStyle.swift; sourceTree = "<group>"; };
+		4693BBA720AC3ED000313BD3 /* StyleParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleParser.swift; sourceTree = "<group>"; };
+		4693BBA920AC431700313BD3 /* Pair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
+		4693BBAB20AC436800313BD3 /* StyleMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleMap.swift; sourceTree = "<group>"; };
+		4693BBAD20AC440E00313BD3 /* PairParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairParser.swift; sourceTree = "<group>"; };
+		4693BBAF20AC441900313BD3 /* StyleMapParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleMapParser.swift; sourceTree = "<group>"; };
+		46BED25F20AC483C0064AE30 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ArcGIS.bundle; sourceTree = "<group>"; };
+		46BED26120AC5A160064AE30 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		46BED26320AC5B1A0064AE30 /* LineString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineString.swift; sourceTree = "<group>"; };
+		46BED26520AC5B720064AE30 /* Placemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placemark.swift; sourceTree = "<group>"; };
+		46BED26720AC5BED0064AE30 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
+		46BED26920AC5CEE0064AE30 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		46BED26B20AC5D650064AE30 /* LineStringParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineStringParser.swift; sourceTree = "<group>"; };
+		46BED26D20AC5E960064AE30 /* PlaceMarkParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarkParser.swift; sourceTree = "<group>"; };
+		46BED26F20AC60010064AE30 /* FolderParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderParser.swift; sourceTree = "<group>"; };
+		46BED27120AC7FC00064AE30 /* LineStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineStyle.swift; sourceTree = "<group>"; };
+		46BED27320AD697F0064AE30 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		77C17C270205C290F5EA53A5 /* Pods_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0663F18061E05A096B5D3E1 /* Pods-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment/Pods-Assignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF707C553AF0B0B1EE4DEC4 /* Pods_Assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +119,11 @@
 		461C90AE20AC31BF009C366C = {
 			isa = PBXGroup;
 			children = (
+				4693BBB120AC480100313BD3 /* Bundle */,
 				461C90B920AC31BF009C366C /* Assignment */,
 				461C90B820AC31BF009C366C /* Products */,
+				53559848EEB0A3379120C29A /* Pods */,
+				DF3518EF54AE546AC6218322 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +138,116 @@
 		461C90B920AC31BF009C366C /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				461C90F620AC3705009C366C /* Parser */,
+				461C90F520AC36FA009C366C /* Model */,
+				461C90F220AC35E2009C366C /* Common */,
+				461C90CE20AC332A009C366C /* 2018_PCT - IOS */,
 				461C90BA20AC31BF009C366C /* AppDelegate.swift */,
-				461C90BC20AC31BF009C366C /* ViewController.swift */,
+				461C90BC20AC31BF009C366C /* MapViewController.swift */,
 				461C90BE20AC31BF009C366C /* Main.storyboard */,
 				461C90C120AC31BF009C366C /* Assets.xcassets */,
 				461C90C320AC31BF009C366C /* LaunchScreen.storyboard */,
 				461C90C620AC31BF009C366C /* Info.plist */,
 			);
 			path = Assignment;
+			sourceTree = "<group>";
+		};
+		461C90CE20AC332A009C366C /* 2018_PCT - IOS */ = {
+			isa = PBXGroup;
+			children = (
+				461C90CF20AC332A009C366C /* 2018_PCT.xml */,
+				461C90D020AC332A009C366C /* icons */,
+			);
+			path = "2018_PCT - IOS";
+			sourceTree = "<group>";
+		};
+		461C90D020AC332A009C366C /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				461C90D120AC332A009C366C /* landmark.png */,
+				461C90D220AC332A009C366C /* postal.png */,
+				461C90D320AC332A009C366C /* bivy.png */,
+				461C90D420AC332A009C366C /* town.png */,
+				461C90D520AC332A009C366C /* store.png */,
+				461C90D620AC332A009C366C /* angel.png */,
+				461C90D720AC332A009C366C /* camping.png */,
+				461C90D820AC332A009C366C /* alert.png */,
+				461C90D920AC332A009C366C /* restaurant.png */,
+				461C90DA20AC332A009C366C /* dirt_road.png */,
+				461C90DB20AC332A009C366C /* campground.png */,
+				461C90DC20AC332A009C366C /* trail_jct.png */,
+				461C90DD20AC332A009C366C /* water.png */,
+				461C90DE20AC332A009C366C /* lodging.png */,
+				461C90DF20AC332A009C366C /* paved_road.png */,
+				461C90E020AC332A009C366C /* bear.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		461C90F220AC35E2009C366C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				461C90F320AC35EC009C366C /* Constants.swift */,
+				46BED27320AD697F0064AE30 /* UIColorExtension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		461C90F520AC36FA009C366C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4693BBA920AC431700313BD3 /* Pair.swift */,
+				4693BBAB20AC436800313BD3 /* StyleMap.swift */,
+				461C90F920AC3777009C366C /* LookAt.swift */,
+				4693BBA320AC39D600313BD3 /* Document.swift */,
+				4693BBA520AC3E4B00313BD3 /* IconStyle.swift */,
+				46BED26120AC5A160064AE30 /* Coordinate.swift */,
+				46BED26320AC5B1A0064AE30 /* LineString.swift */,
+				46BED26520AC5B720064AE30 /* Placemark.swift */,
+				46BED26720AC5BED0064AE30 /* Folder.swift */,
+				46BED26920AC5CEE0064AE30 /* Point.swift */,
+				46BED27120AC7FC00064AE30 /* LineStyle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		461C90F620AC3705009C366C /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				461C90F720AC372A009C366C /* LookAtParser.swift */,
+				4693BBA720AC3ED000313BD3 /* StyleParser.swift */,
+				4693BBAD20AC440E00313BD3 /* PairParser.swift */,
+				4693BBAF20AC441900313BD3 /* StyleMapParser.swift */,
+				46BED26B20AC5D650064AE30 /* LineStringParser.swift */,
+				46BED26D20AC5E960064AE30 /* PlaceMarkParser.swift */,
+				46BED26F20AC60010064AE30 /* FolderParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		4693BBB120AC480100313BD3 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				46BED25F20AC483C0064AE30 /* ArcGIS.bundle */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		53559848EEB0A3379120C29A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15187B839A345DB9A5B3649D /* Pods-Assignment.debug.xcconfig */,
+				C0663F18061E05A096B5D3E1 /* Pods-Assignment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF3518EF54AE546AC6218322 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C17C270205C290F5EA53A5 /* Pods_Assignment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 461C90C920AC31BF009C366C /* Build configuration list for PBXNativeTarget "Assignment" */;
 			buildPhases = (
+				E59A23167048567E71EC1F5B /* [CP] Check Pods Manifest.lock */,
 				461C90B320AC31BF009C366C /* Sources */,
 				461C90B420AC31BF009C366C /* Frameworks */,
 				461C90B520AC31BF009C366C /* Resources */,
+				F1C24814DE17D7461068D171 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +310,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461C90EF20AC332A009C366C /* lodging.png in Resources */,
+				461C90F120AC332A009C366C /* bear.png in Resources */,
+				461C90EA20AC332A009C366C /* restaurant.png in Resources */,
+				461C90E820AC332A009C366C /* camping.png in Resources */,
+				461C90E120AC332A009C366C /* 2018_PCT.xml in Resources */,
+				461C90E720AC332A009C366C /* angel.png in Resources */,
+				461C90E620AC332A009C366C /* store.png in Resources */,
+				461C90E420AC332A009C366C /* bivy.png in Resources */,
+				461C90E220AC332A009C366C /* landmark.png in Resources */,
+				461C90E520AC332A009C366C /* town.png in Resources */,
+				461C90E320AC332A009C366C /* postal.png in Resources */,
+				461C90E920AC332A009C366C /* alert.png in Resources */,
 				461C90C520AC31BF009C366C /* LaunchScreen.storyboard in Resources */,
 				461C90C220AC31BF009C366C /* Assets.xcassets in Resources */,
+				461C90ED20AC332A009C366C /* trail_jct.png in Resources */,
+				46BED26020AC483C0064AE30 /* ArcGIS.bundle in Resources */,
+				461C90EB20AC332A009C366C /* dirt_road.png in Resources */,
 				461C90C020AC31BF009C366C /* Main.storyboard in Resources */,
+				461C90F020AC332A009C366C /* paved_road.png in Resources */,
+				461C90EC20AC332A009C366C /* campground.png in Resources */,
+				461C90EE20AC332A009C366C /* water.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E59A23167048567E71EC1F5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C24814DE17D7461068D171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Assignment/Pods-Assignment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assignment/Pods-Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		461C90B320AC31BF009C366C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				461C90BD20AC31BF009C366C /* ViewController.swift in Sources */,
+				461C90BD20AC31BF009C366C /* MapViewController.swift in Sources */,
+				4693BBA620AC3E4B00313BD3 /* IconStyle.swift in Sources */,
+				46BED26620AC5B720064AE30 /* Placemark.swift in Sources */,
+				46BED26820AC5BED0064AE30 /* Folder.swift in Sources */,
+				4693BBAE20AC440E00313BD3 /* PairParser.swift in Sources */,
+				4693BBA820AC3ED000313BD3 /* StyleParser.swift in Sources */,
+				461C90F820AC372A009C366C /* LookAtParser.swift in Sources */,
+				46BED26E20AC5E960064AE30 /* PlaceMarkParser.swift in Sources */,
+				46BED26A20AC5CEE0064AE30 /* Point.swift in Sources */,
+				4693BBA420AC39D600313BD3 /* Document.swift in Sources */,
+				4693BBAA20AC431700313BD3 /* Pair.swift in Sources */,
 				461C90BB20AC31BF009C366C /* AppDelegate.swift in Sources */,
+				46BED26420AC5B1A0064AE30 /* LineString.swift in Sources */,
+				461C90F420AC35EC009C366C /* Constants.swift in Sources */,
+				46BED27220AC7FC00064AE30 /* LineStyle.swift in Sources */,
+				46BED27020AC60010064AE30 /* FolderParser.swift in Sources */,
+				46BED26220AC5A160064AE30 /* Coordinate.swift in Sources */,
+				4693BBAC20AC436800313BD3 /* StyleMap.swift in Sources */,
+				46BED26C20AC5D650064AE30 /* LineStringParser.swift in Sources */,
+				46BED27420AD697F0064AE30 /* UIColorExtension.swift in Sources */,
+				461C90FA20AC3777009C366C /* LookAt.swift in Sources */,
+				4693BBB020AC441900313BD3 /* StyleMapParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,13 +543,29 @@
 		};
 		461C90CA20AC31BF009C366C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15187B839A345DB9A5B3649D /* Pods-Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KissXML\"",
+					"\"$(HOME)/Library/SDKs/ArcGIS/iOS/Frameworks/Static\"",
+				);
 				INFOPLIST_FILE = Assignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"KissXML\"",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.FPTSoftware.Assignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,13 +576,29 @@
 		};
 		461C90CB20AC31BF009C366C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0663F18061E05A096B5D3E1 /* Pods-Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KissXML\"",
+					"\"$(HOME)/Library/SDKs/ArcGIS/iOS/Frameworks/Static\"",
+				);
 				INFOPLIST_FILE = Assignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"KissXML\"",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.FPTSoftware.Assignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+class IconStyle: NSObject {
+    var scale: Double?
+    var id: String?
+    var href: String?
+    
+}

@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class Coordinate : NSObject {
+    var longitude: Double?
+    var latitude: Double?
+    var altitude: Double?
+}

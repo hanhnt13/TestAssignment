@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+class LookAt: NSObject {
+    var longitude: Double?
+    var latitude: Double?
+    var altitude : Double?
+    
+}

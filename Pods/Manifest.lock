@@ -1,0 +1,16 @@
+PODS:
+  - KissXML (5.2.2)
+
+DEPENDENCIES:
+  - KissXML
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KissXML
+
+SPEC CHECKSUMS:
+  KissXML: 4418f32138aec43797891845d682b00fc8cd4677
+
+PODFILE CHECKSUM: 58a264cc2b5d0aff0c6184b06cca41d13c3bdd0d
+
+COCOAPODS: 1.5.2

@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+class Point : NSObject {
+    var coordinates : [Coordinate]?
+}

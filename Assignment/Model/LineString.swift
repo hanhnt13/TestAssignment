@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+class LineString : NSObject {
+    var coordinates : [Coordinate]?
+    var tessellate : Int?
+}
